@@ -1,0 +1,145 @@
+body, html{
+    margin: 0;
+    height: 100%;
+}
+
+.chooses{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.choose{
+    background-color: #ffffff ;
+    font-family: Roboto;
+    padding: 10px;
+    cursor: pointer;
+    transition: 250ms;
+    border: none;
+    width: 20vw;
+    font-weight: bold;
+}
+
+.choose:hover{
+    background-color: #ffd6fc;
+    transform: scale(1.1);
+    color: crimson;
+}
+
+
+.incorrect{
+    background-color: red !important;
+}
+
+.correct{
+    background-color: greenyellow !important;
+}
+
+
+.title{
+    text-align: center;
+    transition: 250ms;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#title-text{
+    font-size: 25px;
+    font-family: Roboto;
+    font-weight: bold;
+    color: white;
+    transition: 250ms;
+
+}
+
+.title:hover{
+    transform: scale(1.1);
+    background-color:black;
+}
+
+.container{
+    background-color: rgb(244, 125, 255);
+    font-family: Roboto;
+    height: 50vh;
+}
+
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.buttons button {
+    background-color: white;
+    border: none;
+    font-weight: bold;
+    transition: 250ms;
+    margin-bottom: 10px;
+    font-size: 17px;
+    padding: 0px 9px 0px 15px;
+    text-align: center;
+}
+
+
+.buttons button:hover{
+    background-color: #ffd6fc;
+    transform: scale(1.1);
+    color: crimson;
+}
+
+#progress{
+    margin-bottom: 10px;
+    background-color: white;
+    font-weight: bold;
+    padding: 0px 9px 0px 15px;
+    cursor: pointer;
+    transition: 250ms;
+}
+
+#progress:hover{
+    background-color: #ffd6fc;
+    transform: scale(1.1);
+    color: crimson;
+}
+
+.final_message{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(244, 125, 255);
+    height: 70%;
+    flex-direction: column;
+}
+
+.final_message button{
+    background-color: white;
+    border: none;
+    font-weight: bold;
+    transition: 250ms;
+    margin-bottom: 10px;
+    font-size: 17px;
+    padding: 0px 9px 0px 15px;
+    text-align: center;
+}
+
+.final_message button:hover{
+    background-color: #ffd6fc;
+    transform: scale(1.1);
+    color: crimson;
+}
+
+.rodape{
+    position: absolute;
+    bottom: 0px;
+    color: white;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
